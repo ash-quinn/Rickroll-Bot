@@ -6,7 +6,8 @@
   "author": "Owen Rummage <owen@rummage.dev>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon src/index.ts"
+    "dev": "nodemon src/index.ts",
+    "start": "ts-node src/index.ts"
   },
   "dependencies": {
     "@discordjs/opus": "^0.5.3",
