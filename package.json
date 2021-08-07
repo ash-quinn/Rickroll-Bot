@@ -1,0 +1,22 @@
+{
+  "name": "RickRollBot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:owenrummage/RickRollBot.git",
+  "author": "Owen Rummage <owen@rummage.dev>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.ts"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.5.3",
+    "discord.js": "^12.0.0",
+    "dotenv": "^10.0.0",
+    "node-opus": "^0.3.3",
+    "opusscript": "^0.0.8"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.13",
+    "nodemon": "^2.0.12"
+  }
+}
